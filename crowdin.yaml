@@ -3,6 +3,7 @@ files:
     translation: /locale/%locale%/locale.cfg
     languages_mapping:
       locale:
+        ru: ru
         es-ES: es-ES
         fy-NL: fy-NL
         ga-IE: ga-IE
