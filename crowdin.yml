@@ -1,0 +1,15 @@
+files:
+  - source: /locale/en/*.txt
+    translation: /locale/%locale%/%original_file_name%
+    languages_mapping:
+      locale:
+        ru: ru
+        es-ES: es-ES
+        fy-NL: fy-NL
+        ga-IE: ga-IE
+        pt-PT: pt-PT
+        pt-BR: pt-BR
+        sv-SE: sv-SE
+        zh-TW: zh-TW
+        zh-CN: zh-CN
+    type: properties
