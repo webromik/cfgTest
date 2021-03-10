@@ -1,0 +1,29 @@
+# Generic errors, can/should be used by everyone
+errors.missing-field="{0}" is missing.
+errors.invalid-state="{0}" is in an invalid state ({1}).
+errors.logon.failure=You entered an incorrect Administrator ID or Password.
+errors.incorrect-field="{0}" has an incorrect value.
+errors.incorrect-length="{0}" has an incorrect length. It must be between {1} and {2} characters long.
+errors.required-field="{0}" is required.
+errors.bad-email=The e-mail address "{0}" is malformed.
+errors.no-account=Your session has timed out. Please log in again.
+errors.no-user=There is no user bound to your session.  Please log in again.
+errors.generic-error=There was a problem executing your request. {0}
+errors.universal.enabling-error=Universal schedule may not have an enabling group.
+errors.requires.firmware.5.0.4.or.higher=Requires Panel Firmware version 5.0.4 or higher.  Please contact Technical Support at 866-274-8648 Option 3
+errors.requires.firmware.5.0.11.or.higher=Requires Panel Firmware version 5.0.11 or higher.  Please contact Technical Support at 866-274-8648 Option 3
+errors.requires.firmware.5.0.16.or.higher=Requires Panel Firmware version 5.0.16 or higher.  Please contact Technical Support at 866-274-8648 Option 3
+errors.to.before.from=The to date cannot be before the from date.
+errors.parse.date=Value "{0}" could not be saved. Please enter a valid date. Expected Format is {1}.
+errors.parse.number=Value "{0}" could not be saved. Please enter a numerical value.
+errors.invalid-phone-number=Value "{0}" is not a valid phone number.
+errors.outside-range=Value "{0}" must be between {1} and {2}.
+errors.report.email.length=Report emails cannot be more than 255 characters.
+errors.report.email.malformed=The e-mail address "{1}" is malformed.
+
+test.info.mesg=Test Information Message
+test.error.mesg=Test Error Message
+test.warn.mesg=Test Warning Message
+test.info.mesg.params=Test Information Message\: {0} and {1}
+test.error.mesg.params=Test Error Message\: {0} and {1}
+test.warn.mesg.params=Test Warning Message\: {0} and {1}
