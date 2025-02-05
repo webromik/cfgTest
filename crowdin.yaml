@@ -1,0 +1,18 @@
+preserve_hierarchy: true
+files:
+  - source: /locale/en/locale.cfg
+    translation: /locale/%two_letters_code%/%original_file_name%
+    languages_mapping:
+      two_letters_code:
+        locale:
+          ru: ru
+          es-ES: es-ES
+          fy-NL: fy-NL
+          ga-IE: ga-IE
+          pt-PT: pt-PT
+          pt-BR: pt-BR
+          sv-SE: sv-SE
+          zh-TW: zh-TW
+          zh-CN: zh-CN
+    type: ini
+    dest: /locale.ini
