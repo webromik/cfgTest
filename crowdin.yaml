@@ -13,3 +13,4 @@ files:
         sv-SE: sv-SE
         zh-TW: zh-TW
         zh-CN: zh-CN
+    dest: /locale.ini
