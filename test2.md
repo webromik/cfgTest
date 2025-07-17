@@ -1,34 +1,53 @@
-{{ site.data.reusables.command_line.open_the_multi_os_terminal }}
+---
+hide_title: true
+sidebar_label: 许可方式
+title: 许可方式
+id: administration_guide_dfw_86
+---
 
-# test
+# 许可方式
 
-1. Enter `ls -al ~/.ssh` to see if existing SSH keys are present:
+    фффф
 
-2. Enter `ls -al ~/.ssh` to see if existing SSH keys are present:
+- Licence by **Number of CPU slots**
 
-```shell
-$ ls -al ~/.ssh
-# Lists the files in your .ssh directory, if they exist
-```
 
-    test
+
+    This licence specifies an upper limit on the number of total CPU slots in the cluster associated with the distributed firewall.
+
+
+- Licence by **Number of Virtual Machines**
+
     
-    $ ls -al ~/.ssh
-    # Lists the files in your .ssh directory, if they exist
-    
+      This licence specifies the maximum number of virtual machines that can be protected by the Distributed Firewall. You can purchase licences on demand for flexible expansion, but at the same time, please be aware of the functional limitations under this licence.
 
-3. Check the directory listing to see if you already have a public SSH key.
+    The following types of virtual machines consume the number of licences:
 
-* With GPU
-    
-    ```cmd
-    pip3 install https://cntk.ai/PythonWheel/GPU/cntk-2.3.1-cp35-cp35m-win_amd64.whl
-    # Lists the files in your .ssh directory, if they exist
-    ```
+    - Virtual machines in quarantine.
 
-By default, the filenames of the public keys are one of the following:
+    - Members of a virtual machine security group that are policy objects in a custom security policy that is in effect.
 
-* *id_dsa.pub*
-* *id_ecdsa.pub*
-* *id_ed25519.pub*
-* *id_rsa.pub*
+
+
+
+
+
+
+
+- Licence by **Number of CPU slots**
+
+  This licence specifies an upper limit on the number of total CPU slots in the cluster associated with the distributed firewall.
+
+- Licence by **Number of Virtual Machines**
+
+  This licence specifies the maximum number of virtual machines that can be protected by the Distributed Firewall. You can purchase licences on demand for flexible expansion, but at the same time, please be aware of the functional limitations under this licence.
+
+  The following types of virtual machines consume the number of licences:
+
+  - Virtual machines in quarantine.
+
+  - Members of a virtual machine security group that are policy objects in a custom security policy that is in effect.
+
+
+
+Translated with DeepL.com (free version)
